@@ -1,0 +1,117 @@
+<template name="48b5c9cb">
+  <view class="_div data-v-4cf3dc78 test">
+    <view class="_div data-v-4cf3dc78 testNav">
+      <view bindtap="handleProxy" data-eventid="{{'2_0'}}" data-comkey="{{$k}}" class="_div data-v-4cf3dc78 {{[tab == 1 ? 'selected' : '', true ? 'testTitle' : '']}}">互动</view>
+      <view bindtap="handleProxy" data-eventid="{{'2_1'}}" data-comkey="{{$k}}" class="_div data-v-4cf3dc78 {{[tab == 2 ? 'selected' : '', true ? 'testTitle' : '']}}">活动</view>
+    </view>
+    <view class="_div data-v-4cf3dc78">
+      <view wx:if="{{tab==1}}" class="_div data-v-4cf3dc78">
+        <view class="_div data-v-4cf3dc78 card">
+          <view class="_div data-v-4cf3dc78 card__content1">
+            <view class="_div data-v-4cf3dc78 card__content1Left">
+              <image class="_img data-v-4cf3dc78 content1__img" src="/static/icons/nanyi.png"></image>
+              <view class="_div data-v-4cf3dc78 content1__nameAndRate">
+                <view class="_div data-v-4cf3dc78 content1__name"> 杨总3 </view>
+                <van-rate value="{{value1}}" size="{{10}}" allow-half color="#f54b70" void-color="#eee" void-icon="star" bindchange="handleProxy" data-eventid="{{'7_2'}}" data-comkey="{{$k}}" class="_van-rate data-v-4cf3dc78"></van-rate>
+                <view class="_div data-v-4cf3dc78 content1__rateNum">{{value1}}</view>
+              </view>
+              <view class="_div data-v-4cf3dc78 content1__event">{{content_event}}</view>
+            </view>
+            <view class="_div data-v-4cf3dc78 content1__date">{{content_date}}</view>
+          </view>
+          <view class="_div data-v-4cf3dc78 card__content2">
+            <view class="_div data-v-4cf3dc78 content2__comment">{{comment}}</view>
+          </view>
+          <view class="_div data-v-4cf3dc78 card__content3">
+            <image class="_img data-v-4cf3dc78 content3__img" src="/static/icons/nvyi.png"></image>
+            <view class="_div data-v-4cf3dc78 content3__name"> 杨总1： </view>
+            <view class="_div data-v-4cf3dc78 content3__descAll">
+              <view class="_div data-v-4cf3dc78 content3__desc">{{descTitle}}</view>
+              <view class="_div data-v-4cf3dc78 content3__desc">{{descDate}}</view>
+              <view class="_div data-v-4cf3dc78 content3__desc">{{descLocation}}</view>
+            </view>
+          </view>
+        </view>
+        <view class="_div data-v-4cf3dc78 divider"></view>
+        <view class="_div data-v-4cf3dc78 card">
+          <view class="_div data-v-4cf3dc78 card__content1">
+            <view class="_div data-v-4cf3dc78 card__content1Left">
+              <image class="_img data-v-4cf3dc78 content1__img" src="/static/icons/nanhaizi.png"></image>
+              <view class="_div data-v-4cf3dc78 content1__nameAndRate">
+                <view class="_div data-v-4cf3dc78 content1__name"> 杨总2 </view>
+                <van-rate value="{{value2}}" size="{{10}}" allow-half color="#f54b70" void-color="#eee" void-icon="star" bindchange="handleProxy" data-eventid="{{'7_3'}}" data-comkey="{{$k}}" class="_van-rate data-v-4cf3dc78"></van-rate>
+                <view class="_div data-v-4cf3dc78 content1__rateNum">{{value2}}</view>
+              </view>
+              <view class="_div data-v-4cf3dc78 content1__event">{{content_event}}</view>
+            </view>
+            <view class="_div data-v-4cf3dc78 content1__date">{{content_date}}</view>
+          </view>
+          <view class="_div data-v-4cf3dc78 card__content2">
+            <view class="_div data-v-4cf3dc78 content2__comment">{{comment}}</view>
+          </view>
+          <view class="_div data-v-4cf3dc78 card__content3">
+            <image class="_img data-v-4cf3dc78 content3__img" src="/static/icons/nvyi.png"></image>
+            <view class="_div data-v-4cf3dc78 content3__name"> 杨总1： </view>
+            <view class="_div data-v-4cf3dc78 content3__descAll">
+              <view class="_div data-v-4cf3dc78 content3__desc">{{descTitle}}</view>
+              <view class="_div data-v-4cf3dc78 content3__desc">{{descDate}}</view>
+              <view class="_div data-v-4cf3dc78 content3__desc">{{descLocation}}</view>
+            </view>
+          </view>
+        </view>
+        <view class="_div data-v-4cf3dc78 divider"></view>
+      </view>
+      <view wx:else class="_div data-v-4cf3dc78">
+        <view class="_div data-v-4cf3dc78 card2">
+          <view class="_div data-v-4cf3dc78 card__content1">
+            <view class="_div data-v-4cf3dc78 card__content1Left">
+              <image class="_img data-v-4cf3dc78 content1__img" src="/static/icons/nanyi.png"></image>
+              <view class="_div data-v-4cf3dc78 content1__nameAndRate">
+                <view class="_div data-v-4cf3dc78 content1__name"> 杨总3 </view>
+                <van-rate value="{{value1}}" size="{{10}}" allow-half color="#f54b70" void-color="#eee" void-icon="star" bindchange="handleProxy" data-eventid="{{'7_4'}}" data-comkey="{{$k}}" class="_van-rate data-v-4cf3dc78"></van-rate>
+                <view class="_div data-v-4cf3dc78 content1__rateNum">{{value1}}</view>
+              </view>
+              <view class="_div data-v-4cf3dc78 content1__event">{{content_event2}}</view>
+            </view>
+            <view class="_div data-v-4cf3dc78 content1__date">{{content_date}}</view>
+          </view>
+          <view class="_div data-v-4cf3dc78 card2__content3">
+            <image class="_img data-v-4cf3dc78 content3__img" src="/static/icons/nvyi.png"></image>
+            <view class="_div data-v-4cf3dc78 content3__name"> 杨总1： </view>
+            <view class="_div data-v-4cf3dc78 content3__descAll">
+              <view class="_div data-v-4cf3dc78 content3__desc">{{descTitle}}</view>
+              <view class="_div data-v-4cf3dc78 content3__desc">{{descDate}}</view>
+              <view class="_div data-v-4cf3dc78 content3__desc">{{descLocation}}</view>
+            </view>
+          </view>
+        </view>
+        <view class="_div data-v-4cf3dc78 divider"></view>
+        <view class="_div data-v-4cf3dc78 card2">
+          <view class="_div data-v-4cf3dc78 card__content1">
+            <view class="_div data-v-4cf3dc78 card__content1Left">
+              <image class="_img data-v-4cf3dc78 content1__img" src="/static/icons/nanyi.png"></image>
+              <view class="_div data-v-4cf3dc78 content1__nameAndRate">
+                <view class="_div data-v-4cf3dc78 content1__name"> 杨总3 </view>
+                <van-rate value="{{value1}}" size="{{10}}" allow-half color="#f54b70" void-color="#eee" void-icon="star" bindchange="handleProxy" data-eventid="{{'7_5'}}" data-comkey="{{$k}}" class="_van-rate data-v-4cf3dc78"></van-rate>
+                <view class="_div data-v-4cf3dc78 content1__rateNum">{{value1}}</view>
+              </view>
+              <view class="_div data-v-4cf3dc78 content1__event">{{content_event3}}</view>
+            </view>
+            <view class="_div data-v-4cf3dc78 content1__date">{{content_date}}</view>
+          </view>
+          <view class="_div data-v-4cf3dc78 card2__content3">
+            <image class="_img data-v-4cf3dc78 content3__img" src="/static/icons/nvyi.png"></image>
+            <view class="_div data-v-4cf3dc78 content3__name"> 杨总1： </view>
+            <view class="_div data-v-4cf3dc78 content3__descAll">
+              <view class="_div data-v-4cf3dc78 content3__desc">{{descTitle}}</view>
+              <view class="_div data-v-4cf3dc78 content3__desc">{{descDate}}</view>
+              <view class="_div data-v-4cf3dc78 content3__desc">{{descLocation}}</view>
+            </view>
+          </view>
+        </view>
+        <view class="_div data-v-4cf3dc78 divider"></view>
+      </view>
+      <image class="_img data-v-4cf3dc78 background__logo" src="/static/images/page-logo.png"></image>
+    </view>
+  </view>
+</template>

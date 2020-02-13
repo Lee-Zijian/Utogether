@@ -1,0 +1,69 @@
+<import src="/components/bottomNavigation.vue.wxml" /><template name="67423749">
+  <view class="_div data-v-1a8117b0">
+    <view class="_section data-v-1a8117b0 content">
+      <view class="_div data-v-1a8117b0 content1">
+        <view class="_div data-v-1a8117b0 content1__imageAndMotto">
+          <image class="_img data-v-1a8117b0 content1__img" src="/static/icons/nanyi.png"></image>
+          <view class="_div data-v-1a8117b0 content1__motto">{{motto}}</view>
+        </view>
+        <view class="_div data-v-1a8117b0 content1__nameAndRate">
+          <view class="_div data-v-1a8117b0 content1__name"> 杨总3 </view>
+          <van-rate value="{{value}}" size="{{10}}" allow-half color="#f54b70" void-color="#eee" void-icon="star" bindchange="handleProxy" data-eventid="{{'4_0'}}" data-comkey="{{$k}}" class="_van-rate data-v-1a8117b0"></van-rate>
+          <view class="_div data-v-1a8117b0 content1__rateNum">{{value}}</view>
+        </view>
+      </view>
+      <view class="_div data-v-1a8117b0 divider"></view>
+      <view class="_div data-v-1a8117b0 content2">
+        <view class="_div data-v-1a8117b0 content__item">
+          <view class="_div data-v-1a8117b0 content__symbolAndName">
+            <image class="_img data-v-1a8117b0 content__symbol" src="/static/icons/chuangjian.png"></image>
+            <view class="_div data-v-1a8117b0 content__name">我创建的</view>
+          </view>
+          <image class="_img data-v-1a8117b0 content__arrow" src="/static/icons/arrow.png"></image>
+        </view>
+        <view class="_div data-v-1a8117b0 content__item">
+          <view class="_div data-v-1a8117b0 content__symbolAndName">
+            <image class="_img data-v-1a8117b0 content__symbol" src="/static/icons/jiaru.png"></image>
+            <view class="_div data-v-1a8117b0 content__name">我加入的</view>
+          </view>
+          <image class="_img data-v-1a8117b0 content__arrow" src="/static/icons/arrow.png"></image>
+        </view>
+        <view class="_div data-v-1a8117b0 content__item">
+          <view class="_div data-v-1a8117b0 content__symbolAndName">
+            <image class="_img data-v-1a8117b0 content__symbol" src="/static/icons/collection1.png"></image>
+            <view class="_div data-v-1a8117b0 content__name">我收藏的</view>
+          </view>
+          <image class="_img data-v-1a8117b0 content__arrow" src="/static/icons/arrow.png"></image>
+        </view>
+      </view>
+      <view class="_div data-v-1a8117b0 divider"></view>
+      <view class="_div data-v-1a8117b0 content3">
+        <view class="_div data-v-1a8117b0 content__item">
+          <view class="_div data-v-1a8117b0 content__symbolAndName">
+            <image class="_img data-v-1a8117b0 content__symbol" src="/static/icons/judge.png"></image>
+            <view class="_div data-v-1a8117b0 content__name">我评价的</view>
+          </view>
+          <image class="_img data-v-1a8117b0 content__arrow" src="/static/icons/arrow.png"></image>
+        </view>
+        <view class="_div data-v-1a8117b0 content__item">
+          <view class="_div data-v-1a8117b0 content__symbolAndName">
+            <image class="_img data-v-1a8117b0 content__symbol" src="/static/icons/shoudaopingjia.png"></image>
+            <view class="_div data-v-1a8117b0 content__name">评价我的</view>
+          </view>
+          <image class="_img data-v-1a8117b0 content__arrow" src="/static/icons/arrow.png"></image>
+        </view>
+      </view>
+      <view class="_div data-v-1a8117b0 divider"></view>
+      <view class="_div data-v-1a8117b0 content4">
+        <view class="_div data-v-1a8117b0 content__item">
+          <view class="_div data-v-1a8117b0 content__symbolAndName">
+            <image class="_img data-v-1a8117b0 content__symbol" src="/static/icons/xuanyan.png"></image>
+            <view class="_div data-v-1a8117b0 content__name">个性标语</view>
+          </view>
+          <image class="_img data-v-1a8117b0 content__arrow" src="/static/icons/arrow.png"></image>
+        </view>
+      </view>
+      <image class="_img data-v-1a8117b0 background__logo" src="/static/images/page-logo.png"></image>
+    </view> <template data="{{...$root[$kk+'1'], $root}}" is="45c10f20"></template>
+  </view>
+</template>

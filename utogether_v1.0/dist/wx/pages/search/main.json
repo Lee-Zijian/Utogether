@@ -1,0 +1,10 @@
+{
+    "navigationStyle": "custom",
+    "usingComponents": {
+        "van-button": "/static/vant-weapp/button/index",
+        "van-card": "/static/vant-weapp/card/index",
+        "van-tabbar": "/static/vant-weapp/tabbar/index",
+        "van-tabbar-item": "/static/vant-weapp/tabbar-item/index",
+        "van-search": "/static/vant-weapp/search/index"
+    }
+}

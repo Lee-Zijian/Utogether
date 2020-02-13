@@ -1,0 +1,99 @@
+<template name="5724cb42">
+  <view class="_div data-v-360804ae test">
+    <view class="_div data-v-360804ae testNav">
+      <view bindtap="handleProxy" data-eventid="{{'2_0'}}" data-comkey="{{$k}}" class="_div data-v-360804ae {{[tab == 1 ? 'selected' : '', true ? 'testTitle' : '']}}">活动</view>
+      <view bindtap="handleProxy" data-eventid="{{'2_1'}}" data-comkey="{{$k}}" class="_div data-v-360804ae {{[tab == 2 ? 'selected' : '', true ? 'testTitle' : '']}}">用户</view>
+    </view>
+    <view class="_div data-v-360804ae">
+      <view wx:if="{{tab==2}}" class="_div data-v-360804ae">
+        <view class="_div data-v-360804ae card">
+          <view class="_div data-v-360804ae card__content1">
+            <view class="_div data-v-360804ae card__content1Left">
+              <image class="_img data-v-360804ae content1__img" src="/static/icons/nanyi.png"></image>
+              <view class="_div data-v-360804ae content1__nameAndRate">
+                <view class="_div data-v-360804ae content1__name"> 杨总3 </view>
+                <van-rate value="{{value1}}" size="{{10}}" allow-half color="#f54b70" void-color="#eee" void-icon="star" bindchange="handleProxy" data-eventid="{{'7_2'}}" data-comkey="{{$k}}" class="_van-rate data-v-360804ae"></van-rate>
+                <view class="_div data-v-360804ae content1__rateNum">{{value1}}</view>
+              </view>
+            </view>
+            <view class="_div data-v-360804ae content1__collection">
+              <image class="_img data-v-360804ae content1__collectionImg" src="/static/icons/yishoucang.png"></image>
+            </view>
+          </view>
+        </view>
+        <view class="_div data-v-360804ae divider"></view>
+        <view class="_div data-v-360804ae card">
+          <view class="_div data-v-360804ae card__content1">
+            <view class="_div data-v-360804ae card__content1Left">
+              <image class="_img data-v-360804ae content1__img" src="/static/icons/nanhaizi.png"></image>
+              <view class="_div data-v-360804ae content1__nameAndRate">
+                <view class="_div data-v-360804ae content1__name"> 杨总2 </view>
+                <van-rate value="{{value2}}" size="{{10}}" allow-half color="#f54b70" void-color="#eee" void-icon="star" bindchange="handleProxy" data-eventid="{{'7_3'}}" data-comkey="{{$k}}" class="_van-rate data-v-360804ae"></van-rate>
+                <view class="_div data-v-360804ae content1__rateNum">{{value2}}</view>
+              </view>
+            </view>
+            <view class="_div data-v-360804ae content1__collection">
+              <image class="_img data-v-360804ae content1__collectionImg" src="/static/icons/yishoucang.png"></image>
+            </view>
+          </view>
+        </view>
+        <view class="_div data-v-360804ae divider"></view>
+      </view>
+      <view wx:else class="_div data-v-360804ae">
+        <view class="_div data-v-360804ae card2">
+          <view class="_div data-v-360804ae card__content1">
+            <view class="_div data-v-360804ae card__content1Left">
+              <image class="_img data-v-360804ae content1__img" src="/static/icons/nanyi.png"></image>
+              <view class="_div data-v-360804ae content1__nameAndRate">
+                <view class="_div data-v-360804ae content1__name"> 杨总3 </view>
+                <van-rate value="{{value1}}" size="{{10}}" allow-half color="#f54b70" void-color="#eee" void-icon="star" bindchange="handleProxy" data-eventid="{{'7_4'}}" data-comkey="{{$k}}" class="_van-rate data-v-360804ae"></van-rate>
+                <view class="_div data-v-360804ae content1__rateNum">{{value1}}</view>
+              </view>
+            </view>
+            <view class="_div data-v-360804ae content1__deleteAndDate">
+              <image class="_img data-v-360804ae content1__delete" src="/static/icons/shanchu.png"></image>
+              <view class="_div data-v-360804ae content1__date">{{content_date}}</view>
+            </view>
+          </view>
+          <view class="_div data-v-360804ae card2__content3">
+            <image class="_img data-v-360804ae content3__img" src="/static/icons/nvyi.png"></image>
+            <view class="_div data-v-360804ae content3__name"> 杨总1： </view>
+            <view class="_div data-v-360804ae content3__descAll">
+              <view class="_div data-v-360804ae content3__desc">{{descTitle}}</view>
+              <view class="_div data-v-360804ae content3__desc">{{descDate}}</view>
+              <view class="_div data-v-360804ae content3__desc">{{descLocation}}</view>
+            </view>
+          </view>
+        </view>
+        <view class="_div data-v-360804ae divider"></view>
+        <view class="_div data-v-360804ae card2">
+          <view class="_div data-v-360804ae card__content1">
+            <view class="_div data-v-360804ae card__content1Left">
+              <image class="_img data-v-360804ae content1__img" src="/static/icons/nanyi.png"></image>
+              <view class="_div data-v-360804ae content1__nameAndRate">
+                <view class="_div data-v-360804ae content1__name"> 杨总3 </view>
+                <van-rate value="{{value1}}" size="{{10}}" allow-half color="#f54b70" void-color="#eee" void-icon="star" bindchange="handleProxy" data-eventid="{{'7_5'}}" data-comkey="{{$k}}" class="_van-rate data-v-360804ae"></van-rate>
+                <view class="_div data-v-360804ae content1__rateNum">{{value1}}</view>
+              </view>
+            </view>
+            <view class="_div data-v-360804ae content1__deleteAndDate">
+              <image class="_img data-v-360804ae content1__delete" src="/static/icons/shanchu.png"></image>
+              <view class="_div data-v-360804ae content1__date">{{content_date}}</view>
+            </view>
+          </view>
+          <view class="_div data-v-360804ae card2__content3">
+            <image class="_img data-v-360804ae content3__img" src="/static/icons/nvyi.png"></image>
+            <view class="_div data-v-360804ae content3__name"> 杨总1： </view>
+            <view class="_div data-v-360804ae content3__descAll">
+              <view class="_div data-v-360804ae content3__desc">{{descTitle}}</view>
+              <view class="_div data-v-360804ae content3__desc">{{descDate}}</view>
+              <view class="_div data-v-360804ae content3__desc">{{descLocation}}</view>
+            </view>
+          </view>
+        </view>
+        <view class="_div data-v-360804ae divider"></view>
+      </view>
+      <image class="_img data-v-360804ae background__logo" src="/static/images/page-logo.png"></image>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,12 @@
+@import "../../common/vendor.wxss";
+
+.content.data-v-ab970b76 {
+  width: 100vw;
+  height: 150vh;
+  border: 2rpx solid white;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 20rpx;
+}

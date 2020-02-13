@@ -1,0 +1,24 @@
+@import "../../common/vendor.wxss";
+
+.content.data-v-49d8ccaa {
+  width: 100vw;
+  height: 150vh;
+  border: 2rpx solid white;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 20rpx;
+}
+.post__logo.data-v-49d8ccaa {
+  position: fixed;
+  right: 5%;
+  bottom: 10%;
+  width: 100rpx;
+  height: 100rpx;
+  box-shadow: 2rpx 2rpx 10rpx 2rpx #dd5c5c;
+  border-radius: 100%;
+}
+.noshadow.data-v-49d8ccaa {
+  hover-class: none;
+}

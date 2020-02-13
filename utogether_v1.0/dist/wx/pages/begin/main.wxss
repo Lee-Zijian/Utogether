@@ -1,0 +1,23 @@
+@import "../../common/vendor.wxss";
+
+.container {
+  background-color: #FFF;
+  align-content: center;
+  justify-content: center;
+}
+.toc_icon {
+  height: 300rpx;
+  width: 300rpx;
+  margin-bottom: 40rpx;
+}
+.tt {
+  font-size: 60rpx;
+  text-align: center;
+  margin-bottom: 40rpx;
+  font-family: STKaiti;
+}
+.slg {
+  font-size: 35rpx;
+  text-align: center;
+  font-family: STXinwei;
+}

@@ -1,0 +1,15 @@
+<import src="/components/navigationBar.vue.wxml" />
+<import src="/components/topNavigationBar.vue.wxml" />
+<import src="/components/bottomNavigation.vue.wxml" /><template name="26766d32">
+  <view class="_div data-v-49d8ccaa">
+    <view class="_section data-v-49d8ccaa sec-nav"><template data="{{...$root[$kk+'0'], $root}}" is="74a51fae"></template></view> <template data="{{...$root[$kk+'1'], $root}}" is="1b39a5ea"></template>
+    <view class="_section data-v-49d8ccaa content">
+      <navigator url="/pages/detail/main" hover-class="noshadow" class="_navigator data-v-49d8ccaa">
+        <van-card date="8.16-8.18" locate="图书馆" title="考研英语" desc="12345jaksflkahgalj" thumb="/static/icons/nanhai.png" thumb2="/static/icons/sanjiao-down.png" boy_num="/static/icons/nanhaizi.png" girl_num="/static/icons/nvhaizi.png" like="/static/icons/thumbup.png" share="/static/icons/fenxiang.png" comment="/static/icons/anwer-ico.png" collection="/static/icons/collection1.png" post_date="今天18:21" class="_van-card data-v-49d8ccaa"></van-card>
+      </navigator>
+    </view>
+    <navigator url="/pages/post/main" class="_navigator data-v-49d8ccaa">
+      <image class="_img data-v-49d8ccaa post__logo" src="/static/icons/post_logo.png"></image>
+    </navigator> <template data="{{...$root[$kk+'3'], $root}}" is="45c10f20"></template>
+  </view>
+</template>

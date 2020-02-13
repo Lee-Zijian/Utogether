@@ -1,0 +1,233 @@
+<wxs src="../wxs/utils.wxs" module="utils" />
+
+<view class="custom-class van-card">
+  <view class="{{ utils.bem('card__header', { center: centered }) }}">
+    <view class="van-card__thumb" bind:tap="onClickThumb">
+      <image
+        wx:if="{{ thumb }}"
+        src="{{ thumb }}"
+        mode="{{ thumbMode }}"
+        lazy-load="{{ lazyLoad }}"
+        class="van-card__img thumb-class"
+      />
+      <slot name="thumb" />
+      <van-tag
+        wx:if="{{ tag }}"
+        mark
+        type="danger"
+        custom-class="van-card__tag"
+      >
+        {{ tag }}
+      </van-tag>
+    </view>
+    
+    <view class="van-card__content">
+      <view wx:if="{{ title }}" class="van-card__title title-class">{{ title }}</view>
+      <slot wx:else name="title" />
+
+      <view wx:if="{{ date }}" class="van-card__desc desc-class">{{ date }}</view>
+      <slot wx:else name="date" />
+
+      <view wx:if="{{ locate }}" class="van-card__desc2 desc-class">{{ locate }}</view>
+      <slot wx:else name="locate" />
+
+      <view wx:if="{{ desc }}" class="van-card__desc3 desc-class">{{ desc }}</view>
+      <slot wx:else name="desc" />
+
+      <slot name="tags" />
+
+      <view class="van-card__bottom">
+          <view wx:if="{{ price || price === 0 }}" class="van-card__price price-class">{{ currency }} {{ price }}</view>
+          <view wx:if="{{ originPrice || originPrice === 0 }}" class="van-card__origin-price origin-price-class">{{ currency }} {{ originPrice }}</view>
+          <view wx:if="{{ num }}" class="van-card__num num-class">x {{ num }}</view>
+          <slot name="bottom" />
+      </view>
+    </view>
+
+    <view class="van-card__thumb2" bind:tap="onClickThumb">
+      <image
+        wx:if="{{ thumb2 }}"
+        src="{{ thumb2 }}"
+        mode="{{ thumbMode }}"
+        lazy-load="{{ lazyLoad }}"
+        class="van-card__img2 thumb-class"
+      />
+      <slot name="thumb2" />
+      <van-tag
+        wx:if="{{ tag }}"
+        mark
+        type="danger"
+        custom-class="van-card__tag"
+      >
+        {{ tag }}
+      </van-tag>
+    </view>
+  </view> 
+
+<!--    <view wx:if="{{ post_date }}" class="van-card__desc4 desc-class">{{ post_date }}</view>
+    <slot wx:else name="post_date" />
+-->
+    
+  <view class="van-card__footer">
+    <view class="van-card__participants">
+      <view class="van-card__thumb3" bind:tap="onClickThumb">
+        <image
+          wx:if="{{ boy_num }}"
+          src="{{ boy_num }}"
+          mode="{{ thumbMode }}"
+          lazy-load="{{ lazyLoad }}"
+          class="van-card__img3 thumb-class"
+        />
+        <slot name="boy_num" />
+        <van-tag
+          wx:if="{{ tag }}"
+          mark
+          type="danger"
+          custom-class="van-card__tag"
+        >
+          {{ tag }}
+        </van-tag>
+      </view>
+
+      <view class="van-card__thumb3" bind:tap="onClickThumb">
+        <image
+          wx:if="{{ boy_num }}"
+          src="{{ boy_num }}"
+          mode="{{ thumbMode }}"
+          lazy-load="{{ lazyLoad }}"
+          class="van-card__img3 thumb-class"
+        />
+        <slot name="boy_num" />
+        <van-tag
+          wx:if="{{ tag }}"
+          mark
+          type="danger"
+          custom-class="van-card__tag"
+        >
+          {{ tag }}
+        </van-tag>
+      </view>
+
+      <view class="van-card__thumb3" bind:tap="onClickThumb">
+        <image
+          wx:if="{{ girl_num }}"
+          src="{{ girl_num }}"
+          mode="{{ thumbMode }}"
+          lazy-load="{{ lazyLoad }}"
+          class="van-card__img3 thumb-class"
+        />
+        <slot name="girl_num" />
+        <van-tag
+          wx:if="{{ tag }}"
+          mark
+          type="danger"
+          custom-class="van-card__tag"
+        >
+          {{ tag }}
+        </van-tag>
+      </view>
+
+      <view class="van-card__thumb3" bind:tap="onClickThumb">
+        <image
+          wx:if="{{ girl_num }}"
+          src="{{ girl_num }}"
+          mode="{{ thumbMode }}"
+          lazy-load="{{ lazyLoad }}"
+          class="van-card__img3 thumb-class"
+        />
+        <slot name="girl_num" />
+        <van-tag
+          wx:if="{{ tag }}"
+          mark
+          type="danger"
+          custom-class="van-card__tag"
+        >
+          {{ tag }}
+        </van-tag>
+      </view>
+
+    </view>
+    
+    <view class="van-card__button4">
+      <view class="van-card__thumb4" bind:tap="onClickThumb">
+      <image
+        wx:if="{{ like }}"
+        src="{{ like }}"
+        mode="{{ thumbMode }}"
+        lazy-load="{{ lazyLoad }}"
+        class="van-card__img4 thumb-class"
+      />
+      <slot name="like" />
+      <van-tag
+        wx:if="{{ tag }}"
+        mark
+        type="danger"
+        custom-class="van-card__tag"
+      >
+        {{ tag }}
+      </van-tag>
+      </view>
+
+      <view class="van-card__thumb4" bind:tap="onClickThumb">
+      <image
+        wx:if="{{ share }}"
+        src="{{ share }}"
+        mode="{{ thumbMode }}"
+        lazy-load="{{ lazyLoad }}"
+        class="van-card__img4 thumb-class"
+      />
+      <slot name="share" />
+      <van-tag
+        wx:if="{{ tag }}"
+        mark
+        type="danger"
+        custom-class="van-card__tag"
+      >
+        {{ tag }}
+      </van-tag>
+      </view>
+
+      <view class="van-card__thumb4" bind:tap="onClickThumb">
+      <image
+        wx:if="{{ comment }}"
+        src="{{ comment }}"
+        mode="{{ thumbMode }}"
+        lazy-load="{{ lazyLoad }}"
+        class="van-card__img4 thumb-class"
+      />
+      <slot name="comment" />
+      <van-tag
+        wx:if="{{ tag }}"
+        mark
+        type="danger"
+        custom-class="van-card__tag"
+      >
+        {{ tag }}
+      </van-tag>
+      </view>
+
+      <view class="van-card__thumb4" bind:tap="onClickThumb">
+      <image
+        wx:if="{{ collection }}"
+        src="{{ collection }}"
+        mode="{{ thumbMode }}"
+        lazy-load="{{ lazyLoad }}"
+        class="van-card__img4 thumb-class"
+      />
+      <slot name="collection" />
+      <van-tag
+        wx:if="{{ tag }}"
+        mark
+        type="danger"
+        custom-class="van-card__tag"
+      >
+        {{ tag }}
+      </van-tag>
+      </view>
+    </view>    
+    <slot name="footer" />
+  </view>
+
+  <view wx:if="{{ post_date }}" class="van-card__desc4 desc-class">{{ post_date }}</view>
+  <slot wx:else name="post_date" />
+</view>

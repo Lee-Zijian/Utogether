@@ -1,0 +1,7 @@
+<import src="/components/navigationBar.vue.wxml" />
+<import src="/components/bottomNavigation.vue.wxml" /><template name="7b5bc057">
+  <view class="_div data-v-5a6422fe">
+    <view class="_section data-v-5a6422fe sec-nav"><template data="{{...$root[$kk+'0'], $root}}" is="74a51fae"></template></view>
+    <view class="_section data-v-5a6422fe content"> 这里是内容 </view> <template data="{{...$root[$kk+'1'], $root}}" is="45c10f20"></template>
+  </view>
+</template>

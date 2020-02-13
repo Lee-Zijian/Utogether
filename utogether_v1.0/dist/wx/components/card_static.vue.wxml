@@ -1,0 +1,5 @@
+<import src="/components/slots" /><template name="4a0caf8c">
+  <view class="_div data-v-5975329a basic-box"><template name="default"></template>
+    <el-card class="_el-card data-v-5975329a"><template data="{{...$root[$p], ...$root[$k], $root}}" is="{{$slotdefault || 'default'}}"></template></el-card>
+  </view>
+</template>

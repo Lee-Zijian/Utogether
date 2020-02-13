@@ -1,0 +1,7 @@
+<template name="9d197fae">
+  <view id="app" class="_div data-v-8da6773c">
+    <router-view class="_router-view data-v-8da6773c"></router-view>
+    <tabbar class="_tabbar data-v-8da6773c"></tabbar>
+    <view class="_div data-v-8da6773c empty"></view>
+  </view>
+</template>

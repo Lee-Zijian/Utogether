@@ -1,0 +1,32 @@
+<template name="45c10f20">
+  <view id="bottomNavigationFullScreen" class="_div data-v-48efb859">
+    <view class="_div data-v-48efb859 bottomNavigation_content">
+      <view class="_div data-v-48efb859 bottomNavigation_li_content">
+        <view class="_div data-v-48efb859 bottomNavigation_li_public_content" bindtap="handleProxy" data-eventid="{{'3_0'}}" data-comkey="{{$k}}">
+          <navigator url="/pages/index/main" hover-class="noshadow" class="_navigator data-v-48efb859">
+            <image src="{{imagesUrl.homeIcon}}" alt class="_img data-v-48efb859"></image>
+            <view class="_div data-v-48efb859 {{imagesUrl.homeIcon.indexOf('click_home') === -1 ? 'no_select' : 'select'}}">集市</view>
+          </navigator>
+        </view>
+        <view class="_div data-v-48efb859 bottomNavigation_li_public_content" bindtap="handleProxy" data-eventid="{{'3_1'}}" data-comkey="{{$k}}">
+          <navigator url="/pages/post/main" hover-class="noshadow" class="_navigator data-v-48efb859">
+            <image src="{{imagesUrl.rechargeIcon}}" alt class="_img data-v-48efb859"></image>
+            <view class="_div data-v-48efb859 {{imagesUrl.rechargeIcon.indexOf('click_recharge') === -1  ? 'no_select'  : 'select'}}">待办</view>
+          </navigator>
+        </view>
+        <view class="_div data-v-48efb859 bottomNavigation_li_public_content" bindtap="handleProxy" data-eventid="{{'3_2'}}" data-comkey="{{$k}}">
+          <navigator url="/pages/message/main" hover-class="noshadow" class="_navigator data-v-48efb859">
+            <image src="{{imagesUrl.moreIcon}}" alt class="_img data-v-48efb859"></image>
+            <view class="_div data-v-48efb859 {{imagesUrl.moreIcon.indexOf('click_more') === -1 ? 'no_select' : 'select'}}">消息</view>
+          </navigator>
+        </view>
+        <view class="_div data-v-48efb859 bottomNavigation_li_public_content" bindtap="handleProxy" data-eventid="{{'3_3'}}" data-comkey="{{$k}}">
+          <navigator url="/pages/collection/main" hover-class="noshadow" class="_navigator data-v-48efb859">
+            <image src="{{imagesUrl.myIcon}}" alt class="_img data-v-48efb859"></image>
+            <view class="_div data-v-48efb859 {{imagesUrl.myIcon.indexOf('click_my') === -1 ? 'no_select' : 'select'}}">收藏</view>
+          </navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

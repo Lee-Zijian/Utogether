@@ -1,0 +1,12 @@
+<template name="79e47210">
+  <view class="_div data-v-bbd3acc2 tab-bar">
+    <van-tabbar value="{{active}}" bindchange="handleProxy" data-eventid="{{'1_0'}}" data-comkey="{{$k}}" class="_van-tabbar data-v-bbd3acc2">
+      <van-tabbar-item to="/pages/index/main" replace class="_van-tabbar-item data-v-bbd3acc2"><label class="_span data-v-bbd3acc2">门店</label>
+        <image slot="icon" slot-scope="props" src="{{props.active ? icon.active : icon.normal}}" class="_img data-v-bbd3acc2"></image>
+      </van-tabbar-item>
+      <van-tabbar-item to="/pages/index/main" replace class="_van-tabbar-item data-v-bbd3acc2"><label class="_span data-v-bbd3acc2">我的</label>
+        <image slot="icon" slot-scope="props" src="{{props.active ? icon.myactive : icon.mynormal}}" class="_img data-v-bbd3acc2"></image>
+      </van-tabbar-item>
+    </van-tabbar>
+  </view>
+</template>

@@ -1,0 +1,62 @@
+<import src="/components/bottomNavigation.vue.wxml" /><template name="021f4b07">
+  <view class="_div data-v-3db0a4a4">
+    <view class="_div data-v-3db0a4a4 detail">
+      <view class="_div data-v-3db0a4a4 detail__content1">
+        <image class="_img data-v-3db0a4a4 content1__img" src="/static/icons/nvhai.png"></image>
+        <view class="_div data-v-3db0a4a4 content1__nameAndRate">
+          <view class="_div data-v-3db0a4a4 content1__name"> 杨总3 </view>
+          <van-rate value="{{value1}}" size="{{10}}" allow-half color="#f54b70" void-color="#eee" void-icon="star" bindchange="handleProxy" data-eventid="{{'4_0'}}" data-comkey="{{$k}}" class="_van-rate data-v-3db0a4a4"></van-rate>
+          <view class="_div data-v-3db0a4a4 content1__rateNum">{{value1}}</view>
+        </view>
+        <view class="_div data-v-3db0a4a4 content1__desc">
+          <view class="_div data-v-3db0a4a4 content1__title">{{descTitle}}</view>
+          <view class="_div data-v-3db0a4a4 content1__date">{{descDate}}</view>
+          <view class="_div data-v-3db0a4a4 content1__location">{{descLocation}}</view>
+        </view>
+        <image class="_img data-v-3db0a4a4 content1__downMenu" src="/static/icons/sanjiao-down.png"></image>
+      </view>
+      <view class="_div data-v-3db0a4a4 detail__content2">
+        <rich-text class="_div data-v-3db0a4a4 content2__desc" nodes="{{desc}}"></rich-text>
+        <view class="_div data-v-3db0a4a4 content2__postDate">{{post_date}}</view>
+      </view>
+      <view class="_div data-v-3db0a4a4 detail__content3">
+        <view class="_div data-v-3db0a4a4 content3__button4">
+          <image class="_img data-v-3db0a4a4 content3__button" src="/static/icons/thumbup.png"></image>
+          <image class="_img data-v-3db0a4a4 content3__button" src="/static/icons/anwer-ico.png"></image>
+          <image class="_img data-v-3db0a4a4 content3__button" src="/static/icons/collection1.png"></image>
+        </view>
+        <view class="_div data-v-3db0a4a4 content3__peopleNum">
+          <image class="_img data-v-3db0a4a4 content3__people" src="/static/icons/nanhai.png"></image>
+          <image class="_img data-v-3db0a4a4 content3__people" src="/static/icons/nanhai.png"></image>
+          <image class="_img data-v-3db0a4a4 content3__people" src="/static/icons/nvhai.png"></image>
+        </view>
+        <view class="_div data-v-3db0a4a4 content3__readNum">{{readNum}}</view>
+      </view>
+      <view class="_div data-v-3db0a4a4 detail__content4">
+        <image class="_img data-v-3db0a4a4 content4__img" src="/static/icons/nanhai.png"></image>
+        <view class="_div data-v-3db0a4a4 content4__nameAndRate">
+          <view class="_div data-v-3db0a4a4 content4__name"> 杨总3 </view>
+          <van-rate value="{{value2}}" size="{{8}}" allow-half color="#f54b70" void-color="#eee" void-icon="star" bindchange="handleProxy" data-eventid="{{'4_1'}}" data-comkey="{{$k}}" class="_van-rate data-v-3db0a4a4"></van-rate>
+          <view class="_div data-v-3db0a4a4 content4__rateNum">{{value2}}</view>
+        </view>
+      </view>
+      <view class="_div data-v-3db0a4a4 detail__content5">
+        <view class="_div data-v-3db0a4a4 content5__comment">{{content5_comment1}}</view>
+        <image class="_img data-v-3db0a4a4 content5__image" src="/static/icons/thumbup.png"></image>
+      </view>
+      <view class="_div data-v-3db0a4a4 detail__content6">
+        <image class="_img data-v-3db0a4a4 content6__img" src="/static/icons/nvhaizi.png"></image>
+        <view class="_div data-v-3db0a4a4 content6__nameAndRate">
+          <view class="_div data-v-3db0a4a4 content6__name"> 杨总1 ▷ 杨总4 </view>
+          <van-rate value="{{value3}}" size="{{8}}" allow-half color="#f54b70" void-color="#eee" void-icon="star" bindchange="handleProxy" data-eventid="{{'4_2'}}" data-comkey="{{$k}}" class="_van-rate data-v-3db0a4a4"></van-rate>
+          <view class="_div data-v-3db0a4a4 content6__rateNum">{{value3}}</view>
+        </view>
+      </view>
+      <view class="_div data-v-3db0a4a4 detail__content7">
+        <view class="_div data-v-3db0a4a4 content7__comment">{{content7_comment1}}</view>
+        <image class="_img data-v-3db0a4a4 content7__image" src="/static/icons/thumbup.png"></image>
+      </view>
+      <image class="_img data-v-3db0a4a4 background__logo" src="/static/images/page-logo.png"></image>
+    </view> <template data="{{...$root[$kk+'3'], $root}}" is="45c10f20"></template>
+  </view>
+</template>

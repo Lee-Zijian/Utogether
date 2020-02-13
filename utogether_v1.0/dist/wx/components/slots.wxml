@@ -1,0 +1,11 @@
+<import src="/components/bottomNavigation.vue.wxml" />
+<import src="/components/navigationBar.vue.wxml" />
+<import src="/components/topNavigationBar.vue.wxml" />
+<import src="/components/bottomNavigation.vue.wxml" />
+<import src="/components/switch_tab_collection.vue.wxml" />
+<import src="/components/bottomNavigation.vue.wxml" />
+<import src="/components/navigationBar.vue.wxml" />
+<import src="/components/bottomNavigation.vue.wxml" />
+<import src="/components/navigationBar.vue.wxml" />
+<import src="/components/switch_tab.vue.wxml" />
+<import src="/components/bottomNavigation.vue.wxml" />

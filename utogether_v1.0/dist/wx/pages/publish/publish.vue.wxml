@@ -1,0 +1,25 @@
+<template name="66785c6c">
+  <view class="_div data-v-116eb736 total">
+    <view class="_div data-v-116eb736 glo">
+      <image class="_img data-v-116eb736 icon" src="/static/images/publish/biaoqian.png"></image>
+      <picker mode="selector" bindchange="handleProxy" class="_picker data-v-116eb736 input" value="{{index}}" range="{{types}}" data-eventid="{{'2_0'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-116eb736">请选择：{{types[index]}}</view>
+      </picker>
+    </view>
+    <view class="_div data-v-116eb736 glo"><input class="_input data-v-116eb736 input" value="{{act_title}}" bindinput="handleProxy" placeholder="请输入活动标题(不超过10字)" data-eventid="{{'2_1'}}" data-comkey="{{$k}}" />
+      <image class="_img data-v-116eb736 icon" src="/static/images/publish/biaoti.png"></image>
+    </view>
+    <view class="_div data-v-116eb736 glo"><input class="_input data-v-116eb736 input" value="{{start_time}}" bindinput="handleProxy" placeholder="2019年10月12日" data-eventid="{{'2_2'}}" data-comkey="{{$k}}" />
+      <image class="_img data-v-116eb736 icon" src="/static/images/publish/shijian.png"></image>
+    </view>
+    <view class="_div data-v-116eb736 glo"><input class="_input data-v-116eb736 input" value="{{act_place}}" bindinput="handleProxy" placeholder="请输入活动地点" data-eventid="{{'2_3'}}" data-comkey="{{$k}}" />
+      <image class="_img data-v-116eb736 icon" src="/static/images/publish/didian.png"></image>
+    </view>
+    <view class="_div data-v-116eb736 glo"><input class="_input data-v-116eb736 input" value="{{act_numop}}" bindinput="handleProxy" placeholder="请输入参与人数" data-eventid="{{'2_4'}}" data-comkey="{{$k}}" />
+      <image class="_img data-v-116eb736 icon" src="/static/images/publish/quntitezheng.png"></image>
+    </view>
+    <view class="_div data-v-116eb736 glo"><input class="_input data-v-116eb736 input" value="{{act_contact}}" bindinput="handleProxy" placeholder="请输入你的联系方式" data-eventid="{{'2_5'}}" data-comkey="{{$k}}" />
+      <image class="_img data-v-116eb736 icon" src="/static/images/publish/weixin.png"></image>
+    </view>
+    <view class="_div data-v-116eb736 glo">
+      <view class="_td data-v-116eb736"><textarea class="_textarea data-v-116eb736 input" value="{{act_detail}}" bindinput="handleProxy" placeholder="请输入活动详情" data-eventid="{{'3_6'}}" data-comkey="{{$k}}" /></view> <view class="_td data-v-116eb736"><image class="_img data-v-116eb736 icon" src="/static/images/publish/xiangqing.png"></image></view></view> <button class="_button data-v-116eb736 button_pub" bindtap="handleProxy" data-eventid="{{'1_7'}}" data-comkey="{{$k}}">确认上传</button> <van-button type="default" class="_van-button data-v-116eb736">hahahaha</van-button></view></template>

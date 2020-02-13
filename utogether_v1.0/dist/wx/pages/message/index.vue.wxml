@@ -1,0 +1,6 @@
+<import src="/components/switch_tab.vue.wxml" />
+<import src="/components/bottomNavigation.vue.wxml" /><template name="26c2ae32">
+  <view class="_div data-v-22bac9c0">
+    <view class="_section data-v-22bac9c0 content"><template data="{{...$root[$kk+'0'], $root}}" is="48b5c9cb"></template></view> <template data="{{...$root[$kk+'1'], $root}}" is="45c10f20"></template>
+  </view>
+</template>

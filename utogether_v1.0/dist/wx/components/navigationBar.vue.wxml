@@ -1,0 +1,25 @@
+<template name="74a51fae">
+  <view class="_div data-v-dae6add6 comp-navbar">
+    <cover-view class="_cover-view data-v-dae6add6 placeholder-bar" style=" {{('height:' + (navBarHeight + 'px') + ';')}}"></cover-view>
+    <cover-view class="_cover-view data-v-dae6add6 navbar" style=" {{(  'height:' +  (navBarHeight + 'px') +  ';' +  'background-color:' +  navBackgroundColor +  ';')}}">
+      <cover-view class="_cover-view data-v-dae6add6 nav-statusbar" style=" {{('height:' + (statusBarHeight + 'px') + ';')}}"></cover-view>
+      <cover-view class="_cover-view data-v-dae6add6 nav-titlebar" style=" {{('height:' + (titleBarHeight + 'px') + ';')}}">
+        <cover-view class="_cover-view data-v-dae6add6 bar-options">
+          <view class="_div data-v-dae6add6 userinfo" wx:if="{{userInfo.nickName}}">
+            <navigator url="/pages/mine/main" hover-class="noshadow" class="_navigator data-v-dae6add6">
+              <image class="_img data-v-dae6add6 userinfo-avatar" src="{{userInfo.avatarUrl}}"></image>
+            </navigator>
+          </view>
+          <cover-image class="_cover-image data-v-dae6add6 blank-image" src="/static/icons/blank.png"></cover-image>
+          <cover-image class="_cover-image data-v-dae6add6 blank-image" src="/static/icons/blank.png"></cover-image>
+          <cover-image class="_cover-image data-v-dae6add6 blank-image" src="/static/icons/blank.png"></cover-image>
+          <cover-image class="_cover-image data-v-dae6add6 blank-image" src="/static/icons/blank.png"></cover-image>
+          <navigator url="/pages/search/main?id=1" hover-class="noshadow" class="_navigator data-v-dae6add6">
+            <cover-image class="_cover-image data-v-dae6add6 search-image" src="/static/icons/sousuo.png"></cover-image>
+          </navigator>
+        </cover-view>
+      </cover-view>
+      <cover-view class="_cover-view data-v-dae6add6 bar-title" style=" {{['color:' + titleColor + ';']}}">{{title}}</cover-view>
+    </cover-view>
+  </view>
+</template>

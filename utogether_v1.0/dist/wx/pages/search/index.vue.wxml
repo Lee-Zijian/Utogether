@@ -1,0 +1,8 @@
+<import src="/components/navigationBar.vue.wxml" />
+<import src="/components/bottomNavigation.vue.wxml" /><template name="69a7d0c4">
+  <view class="_div data-v-ab970b76">
+    <view class="_section data-v-ab970b76 sec-nav"><template data="{{...$root[$kk+'0'], $root}}" is="74a51fae"></template></view>
+    <van-search value="{{value}}" placeholder="请输入搜索关键词" class="_van-search data-v-ab970b76"></van-search>
+    <view class="_section data-v-ab970b76 content"></view> <template data="{{...$root[$kk+'2'], $root}}" is="45c10f20"></template>
+  </view>
+</template>

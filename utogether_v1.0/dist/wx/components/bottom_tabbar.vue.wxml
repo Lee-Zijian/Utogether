@@ -1,0 +1,7 @@
+<template name="8273dc7e">
+  <van-tabbar value="{{active}}" bindchange="handleProxy" class="_van-tabbar data-v-46a4c9b0 active_tab" data-eventid="{{'0_1'}}" data-comkey="{{$k}}">
+    <van-tabbar-item wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'1_0_'+index}}" data-comkey="{{$k}}" wx:for="{{tabbars}}" wx:for-index="index" wx:for-item="item" class="_van-tabbar-item data-v-46a4c9b0"><label class="_span data-v-46a4c9b0 {{currIndex == index ? active : ''}}">{{tabbars.title}}</label> <template slot="icon" slot-scope="props">
+        <image src="{{props.active ? tabbars.active : tabbars.normal}}" class="_img data-v-46a4c9b0"></image>
+      </template></van-tabbar-item>
+  </van-tabbar>
+</template>

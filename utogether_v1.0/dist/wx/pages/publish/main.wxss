@@ -1,0 +1,33 @@
+@import "../../common/vendor.wxss";
+
+.total {
+  padding-top: 100rpx;
+}
+.icon {
+  height: 60rpx;
+  width: 60rpx;
+  margin-left: 100rpx;
+}
+.input {
+  border-color: gray;
+  border-style: solid;
+  border-width: thin;
+  float: right;
+  font-size: 30rpx;
+  margin-right: 100rpx;
+  width: 450rpx;
+  border-radius: 10rpx;
+}
+.glo {
+  padding-bottom: 30rpx;
+}
+.button_pub {
+  color: white;
+  text-align: left;
+  font-size: 26rpx;
+  background-color: red;
+  width: 170rpx;
+  height: 70rpx;
+  margin-left: 42%;
+  margin-top: 350rpx;
+}

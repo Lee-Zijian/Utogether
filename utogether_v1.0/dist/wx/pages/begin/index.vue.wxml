@@ -1,0 +1,7 @@
+<template name="4be9c76e">
+  <view class="_div data-v-e2af6e7c container">
+    <image class="_img data-v-e2af6e7c toc_icon" src="{{toc_icon}}"></image>
+    <view class="_div data-v-e2af6e7c tt">{{title}}</view>
+    <view class="_div data-v-e2af6e7c slg">{{slogan}}</view>
+  </view>
+</template>
